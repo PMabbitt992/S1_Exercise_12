@@ -32,7 +32,7 @@
 
 
 // Set display to date
-var ThisDay = new Date("August 24. 2018");
+var thisDay = new Date("August 24, 2018");
 // Write calendar to elment id calendar
 document.getElementById("calendar").innerHTML = createCalendar(thisDay);
 //Function to generate calendar table
